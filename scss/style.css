@@ -1,0 +1,16 @@
+a {
+  color: gray;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  appearance: none; }
+  .mouse a:hover {
+    color: red; }
+  .mouse a:focus {
+    color: red; }
+  .mouse a:active {
+    color: green; }
+  .touch a:active {
+    color: green; }
+  .touch a {
+    user-select: none; }
+    .touch a input, .touch a select {
+      user-select: auto; }

@@ -1,0 +1,8 @@
+@mixin focus () {
+  @at-root .mouse &:focus {
+    @content;
+  }
+  @at-root .touch &:focus {
+    @content;
+  }
+}
